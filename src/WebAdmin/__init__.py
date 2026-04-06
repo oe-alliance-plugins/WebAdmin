@@ -26,8 +26,8 @@ def bin2long(s):
 	return int.from_bytes(s, "big")
 
 
-def long2bin(l):
-	return int(l).to_bytes(128, "big")
+def long2bin(lb):
+	return int(lb).to_bytes(128, "big")
 
 
 def rsa_pub1024(src, mod):

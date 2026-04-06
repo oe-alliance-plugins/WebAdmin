@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-from __future__ import print_function
 from Components.Sources.Source import Source
-from os import popen as os_popen, path as os_path
+from os import popen as os_popen
 
 
 class WebScriptList(Source):
@@ -19,8 +18,8 @@ class WebScriptList(Source):
 		if cmd is not None:
 			if self.func == self.EXEC:
 				self.res = self.execScript(cmd)
-			elif self.func == self.LIST:
-				pass
+			#elif self.func == self.LIST:
+			#	pass
 
 	def execScript(self, cmd):
 		return (False, "bla")
