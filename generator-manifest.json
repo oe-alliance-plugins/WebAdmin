@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Extension for enigma2 webinterface to install Ipkgs telnet client",
+  "description_recipe": "Extension for enigma2 webinterface to install Ipkgs telnet client",
+  "history_source_dir": "webadmin",
+  "internal_package_name": "enigma2-plugin-extensions-webadmin",
+  "module_dir_name": "WebAdmin",
+  "output_subdir": "webadmin",
+  "package_name": "enigma2-plugin-extensions-webadmin",
+  "plugin_src_rel": "webadmin",
+  "python_package": "WebAdmin",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "WebAdmin",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
